@@ -1,0 +1,5 @@
+Avaliação individual de API. O banco de dados escolhido foi o H2 e Postman pois facilita a visualização, H2 visualiza via Web, Postman via Aplicativo.
+
+O projeto contem: Classe Funcionario (id, nome) e Endereco (rua, cidade, estado, cep) e a relação entre as duas classes. A interface FuncionarioRepository herdando de JpaRepository. A classe de FuncionarioController criando um CRUD(Create, Read, Update, Delete) para utilização do recursos. Criar as anotações necessárias para que esta classe funcione como um controlador. Validações para tratamento dos campos obrigatórios na classe Funcionario (nome) e Endereco (rua, cidade, estado, cep). E a classe de ControllerExceptionHandler e ErroResposta para tratamento das exceções
+
+API usei o Postman para listar os Funcionarios com o GET, o GET tambem para buscar por ID tal funcionario, o inserir para adicionar um funcionario que não faz parte da lista usando o POST, PUT para atualizar algo, seja endereço, nome, estado ou qualquer outra coisa e o DELETE para remover o funcionario caso não faça mais parte da empresa. 
